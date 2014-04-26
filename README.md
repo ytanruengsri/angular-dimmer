@@ -1,0 +1,4 @@
+angular-dimmer
+==============
+
+Dimmer directive
