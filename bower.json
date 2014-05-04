@@ -1,0 +1,23 @@
+{
+    "name": "angular-dimmer",
+    "main": "angular-dimmer.js",
+    "version": "1.0",
+    "homepage": "https://github.com/ytanruengsri/angular-dimmer",
+    "authors": [
+        "Yuthasak Tanruengsri <yuthasak.tanruengsri@googlemail.com>"
+    ],
+    "description": "Angular directive for showing loading screen",
+    "keywords": [
+        "angular",
+        "dimmer",
+        "css3",
+        "html5",
+        "loading"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ]
+}

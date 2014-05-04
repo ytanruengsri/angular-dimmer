@@ -1,0 +1,26 @@
+{
+    "name": "angular-dimmer",
+    "homepage": "https://github.com/ytanruengsri/angular-dimmer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ytanruengsri/angular-dimmer.git"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://raw.githubusercontent.com/ytanruengsri/angular-dimmer/master/LICENSE"
+        }
+    ],
+    "engines": {
+        "node": ">= 0.8.4"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": "~0.4.0",
+        "grunt-contrib-concat": "~0.1.3",
+        "grunt-contrib-uglify": "~0.2.0",
+        "grunt-contrib-clean": "~0.4.0",
+        "grunt-contrib-copy": "~0.4.0",
+        "grunt-css": "~0.5.4"
+    }
+}
