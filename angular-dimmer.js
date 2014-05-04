@@ -73,6 +73,7 @@ angular.module('dimmerModule', [])
 
                     scope.$on('$destroy', function() {
                         spinner.stop();
+                        elem.remove();
                     });
                 }
             };
