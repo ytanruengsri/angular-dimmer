@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS Notification</title>
+    <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/vendor/prism.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="assets/angular-dimmer/angular-dimmer.css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body ng-app="demo">
+    <section class="wrapper" ng-controller="AngularDimmerDemoController">
+        <dimmer z-index="20000"></dimmer>
+        <header>
+            <h1>Angular Dimmer</h1>
+            <p></p>
+        </header>
+        <section class="main">
+            <form>
+                <div class="form-group">
+                    <label for="cityInput">City</label>
+                    <input type="city" class="form-control" id="cityInput" ng-model="city" placeholder="Enter city">
+                </div>
+                <button type="submit" class="btn btn-primary" ng-click="search()" ng-disabled="isEmpty()">Search</button>
+            </form>
+        </section>
+        <section class="result" ng-show="showResult()">
+            <h3>Result: </h3>
+            <pre>
+                {{weatherResult}}
+            </pre>
+        </section>
+    </section>
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-animate.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-resource.min.js"></script>
+    <script src="assets/vendor/prism.js"></script>
+    <script src="assets/vendor/spin.js"></script>
+    <script src="app.js"></script>
+    <script src="assets/angular-dimmer/angular-dimmer.js"></script>
+</body>
+</html>
