@@ -9,6 +9,10 @@ Angular directive for blocking and showing spinner (using [spin.js](http://fgnas
 ## Getting Started
 To get started you can simply clone the `angular-dimmer` repository and include following files:
 
+[spin.js](http://fgnass.github.io/spin.js/)
+
+And
+
 Minified Version: **angular-dimmer.min.js** OR
 
 Uncompressed Version: **angular-dimmer.js**
